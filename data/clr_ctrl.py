@@ -12,7 +12,7 @@ def remove_control_characters(s):
 cleaned_content = ''
 
 # 逐行读取并清理文件
-with open('input.json', 'r', encoding='utf-8') as f:
+with open('input3.json', 'r', encoding='utf-8') as f:
     for line in f:
         cleaned_content += remove_control_characters(line)
 
@@ -42,5 +42,5 @@ def clean_data(obj):
 cleaned_data = clean_data(data)
 
 # 保存清理后的 JSON 文件
-with open('train.json', 'w', encoding='utf-8') as f:
+with open('train3.json', 'w', encoding='utf-8') as f:
     json.dump(cleaned_data, f, ensure_ascii=False, indent=4)
