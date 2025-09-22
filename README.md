@@ -9,7 +9,7 @@ AI Design Entrance Exam 从头训练一个82M的中文GPT2模型，使用BERT的
 ----
 (1)***environment***
 
-首先，我们下载依赖。
+首先下载依赖。
 ```bash
 pip install -r requirements.txt
 ```
